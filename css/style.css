@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px;
+}
+
+header {
+    background-color: #532D90;
+    color: white;
+    padding: .5rem;
+}
+
+h2 {
+    color: #532D90;
+    ;
+}
+
+div img {
+    height: 150px;
+    width: 150px;
+}
+
+img {
+    width: 15%;
+}
+
+#about > div {
+    display: flex;
+}
+
+div div {
+    padding: 10px;
+}
