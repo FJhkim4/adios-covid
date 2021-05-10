@@ -12,7 +12,7 @@ header {
 
 h2 {
     color: #532D90;
-    ;
+    text-align: center;
 }
 
 .card {
@@ -21,6 +21,7 @@ h2 {
     border-radius: 5px; 
     padding: 10px 20px;
     background-color: #F2EAD3;
+    margin: 0px 14px;
   }
 
 div img {
@@ -34,6 +35,8 @@ img {
 
 #about > div {
     display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .names div {
@@ -43,5 +46,16 @@ img {
 .names {
     display: flex;
     flex-wrap: wrap;
+}
+
+.iframe-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+footer {
+    text-align: center;
 }
 
