@@ -32,6 +32,8 @@ h2 {
     border-radius: 5px; 
     padding: 10px 20px;
     background-color: #F2EAD3;
+    width: 70%;
+    margin: auto;
 }
 
 div img {
@@ -63,21 +65,28 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+
+.iframe {
     margin: auto;
 }
 
 .app {
-    width: 125px;
-    height: 250px;
+    width: 150px;
+    height: 310px;
     margin-right: 15px;
 }
 
-.sprints {
+.iter {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 
 footer {
     text-align: center;
 }
+
 
